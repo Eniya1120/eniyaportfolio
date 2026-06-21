@@ -253,7 +253,7 @@ export default function Hero() {
                 ),
               },
               {
-                href: 'mailto:eniya1120@gmail.com',
+                href: 'mailto:eniyaasgok2006@gmail.com',
                 label: 'Send email',
                 external: false,
                 icon: (
