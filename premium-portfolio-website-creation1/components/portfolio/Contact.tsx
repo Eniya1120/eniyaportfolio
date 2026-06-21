@@ -16,8 +16,8 @@ const CONTACT_CARDS = [
   },
   {
     label: 'Email',
-    value: 'eniya1120@gmail.com',
-    href: 'mailto:eniya1120@gmail.com',
+    value: 'eniyaashok2006@gmail.com',
+    href: 'mailto:eniyaashok2006@gmail.com',
     color: 'purple',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -90,7 +90,7 @@ export default function Contact() {
       const body = encodeURIComponent(
         `Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nCollege: ${form.college}\n\nMessage:\n${form.message}`
       )
-      window.location.href = `mailto:eniya1120@gmail.com?subject=${subject}&body=${body}`
+      window.location.href = `mailto:eniyaashok2006@gmail.com?subject=${subject}&body=${body}`
       setSubmitted(true)
     } finally {
       setSending(false)
@@ -201,7 +201,7 @@ export default function Contact() {
                       Message Sent!
                     </h3>
                     <p className="text-[#94a3b8] text-sm" style={{ fontFamily: "'Inter', sans-serif" }}>
-                      Your message has been sent directly to eniya1120@gmail.com. I&apos;ll get back to you soon!
+                      Your message has been sent directly to eniyaashok2006@gmail.com. I&apos;ll get back to you soon!
                     </p>
                   </div>
                   <button
