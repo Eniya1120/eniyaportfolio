@@ -192,7 +192,7 @@ export default function About() {
                 { label: 'Degree', value: 'B.Tech AI & DS' },
                 { label: 'College', value: 'Bannari Amman Institute of Technology' },
                 { label: 'Year', value: '3rd Year (2024–2028)' },
-                { label: 'Email', value: 'eniya1120@gmail.com' },
+                { label: 'Email', value: 'eniyaasho2006@gmail.com' },
                 { label: 'Phone', value: '+91 7339197734' },
               ].map((row, i) => (
                 <div
